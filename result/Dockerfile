@@ -12,7 +12,7 @@ RUN npm ci \
  && npm cache clean --force \
  && mv /app/node_modules /node_modules
  
-RUN mv /app/node_modules /node_modules
+#RUN mv /app/node_modules /node_modules
 
 ADD . /app
 
